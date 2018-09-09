@@ -167,3 +167,12 @@ Invoke TX fee: 0.0001
 ```
 
 If you get a message about the contract not being found, you may need to wait for a minute or two for your contract to be mined into a block before it can be invoked. Once again, this will be a local invocation and entering your password will run the contract on the network for real, charging you GAS in the process.
+
+## Next Steps
+As of the time of writing, Neo documentation is fairly fragmented. However, some of the following sites provide good info on smart contract development:
+
+- [neo-python docs](https://neo-python.readthedocs.io/en/latest/index.html) ([Smart Contracts section](https://neo-python.readthedocs.io/en/latest/neo/SmartContract/smartcontracts.html))
+
+- [Neo Docs](http://docs.neo.org/en-us/index.html) ([Smart Contracts section](http://docs.neo.org/en-us/sc/introduction.html))
+
+Additionally, [neon-js](https://github.com/CityOfZion/neon-js) can be used to interact with smart contracts from JavaScript environments.
