@@ -2,7 +2,13 @@
 
 In this tutorial, we will use the [neo-local](https://github.com/CityOfZion/neo-local) project to setup a private chain for local development and testing of Neo smart contracts. Using a private chain gives us complete control over our environment, allowing us to work in isolation without dealing with external testnets.
 
-In order to follow along, you will need access to a Unix-like terminal and either a programmer text editor or a Python IDE. I will be working from an Ubuntu 18.04 setup using [Sublime Text 3](https://www.sublimetext.com/) (other good editor options include [Atom](https://atom.io/) or [Visual Studio Code](https://code.visualstudio.com/)).
+In order to follow along, you will need access to a Unix-like terminal and a text editor of some sort. I will be working in a VM, using nano for text editing:
+
+Ubuntu 18.04 (Minimal Install)  
+4GB RAM  
+50GB Disk
+
+Note that you will probably want at least 20GB of disk space to store your private chain.
 
 ## Docker, Docker Compose, and neo-local
 The neo-local project requires Docker to run, so the first order of business will be to get that installed. Docker is a container engine that can run pre-configured setups, which is exactly what neo-local uses it for. We will be using Docker Community Edition (Docker CE).
