@@ -4,9 +4,9 @@ In this tutorial, we will use the [neo-local](https://github.com/CityOfZion/neo-
 
 In order to follow along, you will need access to a Unix-like terminal and a text editor of some sort. I will be working in a VM, using nano for text editing:
 
-Ubuntu 18.04 (Minimal Install)
-4GB RAM
-50GB Disk
+Ubuntu 18.04 (Minimal Install)  
+4GB RAM  
+50GB Disk  
 
 Note that you will probably want at least 20GB of disk space to store your private chain.
 
